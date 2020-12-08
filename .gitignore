@@ -1,0 +1,10 @@
+
+# Directorios de dependencias
+node_modules/
+
+# Cache .npm
+.npm
+
+# Gatsby files
+.cache/
+
