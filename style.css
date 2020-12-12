@@ -497,7 +497,7 @@ Paginas clasificación
 
   background-position: center; /* Center the image */
   background-repeat: space; /* Do not repeat the image */
-  background-size: fitr; /* Resize the background image to cover the entire container */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .mainContainer > section:first-child {
