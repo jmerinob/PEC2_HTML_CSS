@@ -182,6 +182,7 @@ footer {
 }
 
 .detail-img {
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
   object-fit: contain;
   height: 80vw;
   padding: 2rem;
@@ -366,6 +367,15 @@ p.infoLegal {
   margin-bottom: 0;
   overflow: hidden;
 }
+
+.indexMain {
+  background-image: url("./img/insung-yoon-iioAHjNYA_o-unsplash.jpg");
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
 /****************************
 Formulario 
 *****************************/
@@ -474,7 +484,7 @@ input[type="submit"]:hover {
 }
 
 /****************************
-Lecturas 2020
+Paginas clasificación
 *****************************/
 
 .mainContainer > section:first-child {
@@ -503,12 +513,15 @@ nav.list h2 {
   margin-top: 0.1rem;
 }
 
+.book-img:hover {
+  clip-path: polygon(2% 2%, 98% 2%, 98% 98%, 2% 98%);
+}
+
 img.book {
   object-fit: contain;
   display: block;
   margin: auto;
 }
-
 .img-texto {
   position: relative;
   float: left;
