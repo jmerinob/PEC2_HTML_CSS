@@ -22,5 +22,7 @@
     "postcss": "^8.1.6",
     "rimraf": "^3.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "d3": "^6.3.1"
+  }
 }
