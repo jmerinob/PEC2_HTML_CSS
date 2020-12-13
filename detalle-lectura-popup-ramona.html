@@ -34,7 +34,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="librosMain">
       <div class="mainContainer">
         <nav class="breadcrum">
           <ul>
@@ -47,11 +47,11 @@
           <h2 class="center"><i>La rana RAMONA</i>, de Nick Denchfield y Ant Parker</h2>
           <div class="flexContainer">
             <div class="mediumFlex">
-              <img
-              class="detail-img"
-              src="img//0_2pollopepe01.jpg"
-              alt="Imagen del libro"
-              />
+              <picture>
+                <source media="(max-width: 992px)" srcset="img//0_2pollopepe01_276.jpg">
+                <source media="(min-width: 993px)" srcset="img//0_2pollopepe01.jpg">
+                <img class="detail-img" src="img//0_2pollopepe01.jpg" alt="Imagen del autor" />
+              </picture>
               <h2>Ficha técnica</h2>
               <dl>
                 <dt>
